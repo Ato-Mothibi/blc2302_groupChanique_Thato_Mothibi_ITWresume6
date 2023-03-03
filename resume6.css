@@ -1,0 +1,109 @@
+/* Changing the font of the webpage to a different font */
+*{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+header{
+    background: #4B4A54;
+    color: aliceblue;
+    font-size: small;
+    border-style:double;
+    display: flex;
+    padding: 40px;
+}
+
+.photo{
+    width: 200px;
+    height: 350px;
+    border-radius: 50% 50%;
+    border: 8px solid white;
+    margin-top: 50px;
+    margin-left:20px;
+    flex: 2p;
+    
+}
+
+#intro{
+    flex: 8;
+    padding: 20px;
+    padding-top: 80px;
+    
+}
+
+#int{
+    border: 15px solid black;
+    padding: 30px;
+    border-radius: 30px 30px;
+}
+
+section{
+    margin: 30px;
+    padding: 30px;
+}
+
+.menu{
+    display: block;
+    text-decoration: none;
+    padding: 20px 10px;
+    background: #677381;
+    margin: 16px;
+    cursor: pointer;
+    margin-left: 10%;
+    box-shadow: 5px 10px #4B4A54;
+    width: 70%;
+}
+
+.menu:hover{
+    background-color: pink;
+}
+
+.btotop{
+    position: fixed;
+    bottom: 10px;
+    background-color: #F7EEF6;
+    display: block;
+    text-decoration: none;
+    padding: 10px 5px;
+    left: 25%;
+    cursor: pointer;
+    margin-left: 10%;
+    box-shadow: 5px 10px #030303;
+    width: 70px;
+}
+
+.edu{
+    background: #B9B9B9;
+    border-style: hidden;
+    display: flex;
+}
+
+#quals{
+    padding:50px;
+    top: 10px;
+    flex: 3px;
+    position: relative;
+    top: 20px;
+    
+}
+
+#details{
+    padding:50px ;
+    flex:7;
+}
+
+
+
+.exper{
+    background: #47817F;
+    text-align: center;
+}
+
+.skill{
+    background: #4B4A54;
+}
+
+footer{
+    background: #887177;
+}
+
